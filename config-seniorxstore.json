@@ -1,0 +1,15 @@
+{
+    "menu": {
+        "children": [
+            {
+                "id": "marketplace-seniorxstore",
+                "label": "seniorXstore",
+                "labelI18n": "platform.backend.custom_marketplace-seniorxstore",
+                "path": {
+                    "category": "NewTab",
+                    "menuId": "https://bit.ly/3vC5Afq"
+                }
+            }
+        ]
+    }
+}

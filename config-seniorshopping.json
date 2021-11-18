@@ -1,0 +1,15 @@
+{
+    "menu": {
+        "children": [
+            {
+                "id": "marketplace-seniorshopping",
+                "label": "Senior Shopping",
+                "labelI18n": "platform.backend.custom_marketplace-seniorshopping",
+                "path": {
+                    "category": "NewTab",
+                    "menuId": "https://bit.ly/3vC5Afq"
+                }
+            }
+        ]
+    }
+}
