@@ -1,0 +1,14 @@
+{
+    "menu": {
+        "children": [
+            {
+                "id": "marketplace-dashboard",
+                "label": "Dashboard",
+                "path": {
+                    "category": "CurrentTab",
+                    "menuId": "https://seniorxstore.senior.com.br/flexyadmin/user/login"
+                }
+            }
+        ]
+    }
+}
