@@ -1,0 +1,113 @@
+@charset "UTF-8"
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 90px;
+    color: #ffffff
+}
+
+a {
+    cursor: pointer;
+    font-weigth: bold;
+}
+
+.neo-section {
+    min-height: 700px;
+    background-size: cover !important;
+    background-position: center;
+    background-repet: no-repeat;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+}
+
+.wm {
+    weidth: 50%;
+    float: left;
+}
+
+.neo-container {
+    max-weidth: 1280px;
+    padding: 2% 2%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.clear {
+    clear: both;
+}
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    margin: 0;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    max-width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #0077cc;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: left;
+    width: 100%;
+}
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+}
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px #0077cc;
+}
+input[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #005faa;
+}
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 90%;
+    }
+}
